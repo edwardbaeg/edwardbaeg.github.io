@@ -177,7 +177,7 @@ parcelRequire = function (e, r, t, n) {
   if (parcelRequire = f, i) throw i;
   return f;
 }({
-  "YOw+": [function (require, module, exports) {
+  "J4Nk": [function (require, module, exports) {
     "use strict";
 
     var r = Object.getOwnPropertySymbols,
@@ -229,7 +229,7 @@ parcelRequire = function (e, r, t, n) {
       return s;
     };
   }, {}],
-  "pyFg": [function (require, module, exports) {
+  "awqi": [function (require, module, exports) {
     "use strict";
 
     var e = require("object-assign"),
@@ -600,16 +600,16 @@ parcelRequire = function (e, r, t, n) {
         B = z && N || z;
     module.exports = B.default || B;
   }, {
-    "object-assign": "YOw+"
+    "object-assign": "J4Nk"
   }],
-  "HdMw": [function (require, module, exports) {
+  "1n8/": [function (require, module, exports) {
     "use strict";
 
     module.exports = require("./cjs/react.production.min.js");
   }, {
-    "./cjs/react.production.min.js": "pyFg"
+    "./cjs/react.production.min.js": "awqi"
   }],
-  "5x9c": [function (require, module, exports) {
+  "5IvP": [function (require, module, exports) {
     var global = arguments[3];
     var e = arguments[3];
     Object.defineProperty(exports, "__esModule", {
@@ -934,14 +934,14 @@ parcelRequire = function (e, r, t, n) {
       return n;
     };
   }, {}],
-  "IGIl": [function (require, module, exports) {
+  "MDSO": [function (require, module, exports) {
     "use strict";
 
     module.exports = require("./cjs/scheduler.production.min.js");
   }, {
-    "./cjs/scheduler.production.min.js": "5x9c"
+    "./cjs/scheduler.production.min.js": "5IvP"
   }],
-  "jF7N": [function (require, module, exports) {
+  "i17t": [function (require, module, exports) {
     "use strict";
 
     var e = require("react"),
@@ -6280,11 +6280,11 @@ parcelRequire = function (e, r, t, n) {
         hu = mu && du || mu;
     module.exports = hu.default || hu;
   }, {
-    "react": "HdMw",
-    "object-assign": "YOw+",
-    "scheduler": "IGIl"
+    "react": "1n8/",
+    "object-assign": "J4Nk",
+    "scheduler": "MDSO"
   }],
-  "X9zx": [function (require, module, exports) {
+  "NKHc": [function (require, module, exports) {
     "use strict";
 
     function _() {
@@ -6301,9 +6301,9 @@ parcelRequire = function (e, r, t, n) {
 
     _(), module.exports = require("./cjs/react-dom.production.min.js");
   }, {
-    "./cjs/react-dom.production.min.js": "jF7N"
+    "./cjs/react-dom.production.min.js": "i17t"
   }],
-  "FLHj": [function (require, module, exports) {
+  "lY9v": [function (require, module, exports) {
     "use strict";
 
     Object.defineProperty(exports, "__esModule", {
@@ -6318,17 +6318,17 @@ parcelRequire = function (e, r, t, n) {
     }
 
     function r(t) {
-      return e.default.createElement("div", null, "Hello World");
+      return e.default.createElement("div", null, "This is edwardbaeg.com");
     }
   }, {
-    "react": "HdMw"
+    "react": "1n8/"
   }],
   "Focm": [function (require, module, exports) {
     "use strict";
 
     var e = u(require("react")),
         r = u(require("react-dom")),
-        t = u(require("./src/App.js"));
+        t = u(require("./App.js"));
 
     function u(e) {
       return e && e.__esModule ? e : {
@@ -6338,9 +6338,9 @@ parcelRequire = function (e, r, t, n) {
 
     r.default.render(e.default.createElement(t.default, null), document.querySelector("#app"));
   }, {
-    "react": "HdMw",
-    "react-dom": "X9zx",
-    "./src/App.js": "FLHj"
+    "react": "1n8/",
+    "react-dom": "NKHc",
+    "./App.js": "lY9v"
   }]
 }, {}, ["Focm"], null);
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
@@ -6371,7 +6371,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56009" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58908" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
