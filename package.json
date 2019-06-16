@@ -2,7 +2,7 @@
   "name": "edwardbaeg.github.io",
   "version": "1.0.0",
   "description": "Hello world",
-  "main": "index.js",
+  "main": "dist/index.js",
   "dependencies": {
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
